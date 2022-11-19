@@ -1,7 +1,7 @@
 import axios from "axios";
 import HeadlessLayout from "components/layouts/HeadlessLayout";
 import React, { useEffect, useState } from "react";
-import { Button, Card, Col, Container, Figure, Row } from "react-bootstrap";
+import { Button, Card, Col, Container, Row } from "react-bootstrap";
 import { useNavigate, useParams } from "react-router-dom";
 
 const Counter = () => {
@@ -72,6 +72,7 @@ const Counter = () => {
             </Button>
           </Col>
           <Col>
+
             <Button
               className="mb-3"
               variant="primary"
