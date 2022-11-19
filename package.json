@@ -1,5 +1,5 @@
 {
-  "homepage": "http://astinaus.github.io/busan-attrs",
+  "homepage": "http://astinaus.github.io/busan-react",
   "name": "first-react",
   "version": "0.1.0",
   "private": true,
@@ -10,6 +10,7 @@
     "@testing-library/user-event": "^13.2.1",
     "axios": "^1.1.3",
     "bootstrap": "^5.2.2",
+    "gh-pages": "^4.0.0",
     "react": "^18.2.0",
     "react-bootstrap": "^2.6.0",
     "react-dom": "^18.2.0",
@@ -22,7 +23,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
